@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-dubbox-dao/SpringBoot-dubbox-dao.iml" filepath="$PROJECT_DIR$/SpringBoot-dubbox-dao/SpringBoot-dubbox-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-dubbox-interface/SpringBoot-dubbox-interface.iml" filepath="$PROJECT_DIR$/SpringBoot-dubbox-interface/SpringBoot-dubbox-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-dubbox-parent.iml" filepath="$PROJECT_DIR$/SpringBoot-dubbox-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-dubbox-pojo/SpringBoot-dubbox-pojo.iml" filepath="$PROJECT_DIR$/SpringBoot-dubbox-pojo/SpringBoot-dubbox-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-dubbox-serviceimpl/SpringBoot-dubbox-serviceimpl.iml" filepath="$PROJECT_DIR$/SpringBoot-dubbox-serviceimpl/SpringBoot-dubbox-serviceimpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot-dubbox-web/SpringBoot-dubbox-web.iml" filepath="$PROJECT_DIR$/SpringBoot-dubbox-web/SpringBoot-dubbox-web.iml" />
+    </modules>
+  </component>
+</project>

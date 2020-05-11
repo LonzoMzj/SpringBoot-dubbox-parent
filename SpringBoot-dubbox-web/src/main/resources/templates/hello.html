@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>hello</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="../../webapp/js/thymeleaf.js"
+	th:src="@{/js/thymeleaf.js}"></script>
+<script>
+	testFunction();
+</script>
+</head>
+<body>
+	<p th:text="${name}"></p>
+	<p th:text="'Hello！ ' + ${name} + '!'"></p>
+	<p th:text="|Hello！ ${name}!|"></p>
+	<!-- 不只是布尔值的 true 和 false, th:if 表达式返回其他值时也会被认为是 true 或 false，规则如下:
+
+boolean 类型并且值是 true, 返回 true
+数值类型并且值不是 0, 返回 true
+字符类型(Char)并且值不是 0, 返回 true
+String 类型并且值不是 "false", "off", "no", 返回 true
+不是 boolean, 数值, 字符, String 的其他类型, 返回 true
+
+值是 null, 返回 false -->
+	<p th:if="${isTrue}">true就显示出来</p>
+	<p th:if="${not isTrue}">不是true才显示出来</p>
+	<!-- 或者 -->
+	<p th:if="${isTrue}?'true就显示出来':'不是true才显示出来'"></p>
+	
+	<div class="showing date">
+	<h2>格式化日期</h2>
+	直接输出日期 ${now}:
+	<p th:text="${now}"></p>
+	默认格式化 ${#dates.format(now)}:
+	<p th:text="${#dates.format(now)}"></p>
+	自定义格式化 ${#dates.format(now,'yyyy-MM-dd HH:mm:ss')}:
+	<p th:text="${#dates.format(now,'yyyy-MM-dd HH:mm:ss')}"></p>
+</div>
+</body>
+
+</html>

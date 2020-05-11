@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SpringBoot-dubbox-web-0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SpringBoot-dubbox-web/target/SpringBoot-dubbox-web-0.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

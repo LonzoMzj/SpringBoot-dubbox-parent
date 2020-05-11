@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringBoot-dubbox-web" />
+        <module name="SpringBoot-dubbox-serviceimpl" />
+        <module name="SpringBoot-dubbox-interface" />
+        <module name="SpringBoot-dubbox-dao" />
+        <module name="SpringBoot-dubbox-pojo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringBoot-dubbox-dao" target="8" />
+      <module name="SpringBoot-dubbox-interface" target="8" />
+      <module name="SpringBoot-dubbox-parent" target="8" />
+      <module name="SpringBoot-dubbox-pojo" target="8" />
+      <module name="SpringBoot-dubbox-serviceimpl" target="8" />
+      <module name="SpringBoot-dubbox-web" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
